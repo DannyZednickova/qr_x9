@@ -1,8 +1,13 @@
 .container-sm  {
     margin: auto;
-    width: 50%;
+    width: 40%;
 }
 
+h2{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #02618d;
+}
 
 .form,
 .generate-link {
@@ -14,7 +19,43 @@
 .form,
 .generate-link  {
     margin: auto;
-    width: 80%;
-    margin : 2em;
+    width: 100%;
+   
 }
 
+.refresh-link {
+    color: red;
+}
+
+
+.hidden-text, 
+.hidden-textvs {
+    display: none;
+    width: 100%;
+    background-color: pink;
+    border-radius: 1em;
+    padding-left: 0.6em;
+    padding-bottom: 0.3em;
+    
+}
+
+
+.bottom-menu {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+    .container-sm {
+        margin: auto;
+    width: 80%;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .container-sm {
+        margin: auto;
+        width: 100%;
+    }
+  }

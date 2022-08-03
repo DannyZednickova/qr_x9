@@ -1,6 +1,14 @@
+$(".numeric").on("input", function(evt) {
+    var self = $(this);
+       self.val(self.val().replace(/\D/g, ""));
+    
+   
+   })
 
-
-function onClick() {
-    document.getElementById("qrcode").style.visibility = "visible";
-
-  }
+   
+$(".numericvs").on("input", function(evt) {
+    var self = $(this);
+       self.val(self.val().replace(/\D/g, ""));
+     
+   
+   } )
