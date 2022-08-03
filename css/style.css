@@ -1,0 +1,20 @@
+.container-sm  {
+    margin: auto;
+    width: 50%;
+}
+
+
+.form,
+.generate-link {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form,
+.generate-link  {
+    margin: auto;
+    width: 80%;
+    margin : 2em;
+}
+
